@@ -34,5 +34,5 @@ README Может терпеть изменения во время редакц
 ## Авторы
 
 - [@cryteamrut](https://github.com/Yaroslavtatar)
-- [@crosslite](https://github.com/crosslite)
-- [@atarwn](https://github.com/atarwn)
+- [@crosslite](https://github.com/crosslite) generator of ideas
+- [@atarwn](https://github.com/atarwn) generator of ideas
