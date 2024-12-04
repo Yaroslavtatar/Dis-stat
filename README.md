@@ -34,3 +34,5 @@ README Может терпеть изменения во время редакц
 ## Авторы
 
 - [@cryteamrut](https://github.com/Yaroslavtatar)
+- [@crosslite](https://github.com/crosslite)
+- [@atarwn](https://github.com/atarwn)
