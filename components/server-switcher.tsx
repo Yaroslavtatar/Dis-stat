@@ -21,9 +21,7 @@ import {
 } from "@/components/ui/popover"
 import { useToast } from "@/components/ui/use-toast"
 
-// Это заглушка для функции аутентификации Discord
 const authenticateDiscord = async () => {
-  // В реальном приложении здесь была бы логика аутентификации через Discord API
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve({
@@ -73,7 +71,7 @@ export function ServerSwitcher() {
           variant="outline"
           role="combobox"
           aria-expanded={open}
-          className="w-full justify-between"
+          className="w-[200px] justify-between"
         >
           {value
             ? servers.find((server) => server.value === value)?.label
@@ -81,7 +79,7 @@ export function ServerSwitcher() {
           <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
         </Button>
       </PopoverTrigger>
-      <PopoverContent className="w-full p-0">
+      <PopoverContent className="w-[200px] p-0">
         <Command>
           <CommandInput placeholder="Поиск сервера..." />
           <CommandList>

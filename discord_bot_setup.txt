@@ -1,0 +1,120 @@
+[English]
+How to connect a Discord bot to the website via API and set up Discord authentication:
+
+1. Create a Discord application and bot:
+   - Go to the Discord Developer Portal (https://discord.com/developers/applications)
+   - Click "New Application" and give it a name
+   - Go to the "Bot" tab and click "Add Bot"
+   - Under the "Token" section, click "Copy" to copy your bot token
+
+2. Set up your bot's permissions:
+   - Go to the "OAuth2" tab
+   - In the "Scopes" section, select "bot"
+   - In the "Bot Permissions" section, select the necessary permissions
+
+3. Invite the bot to your server:
+   - Use the generated OAuth2 URL to invite the bot to your server
+
+4. Set up Discord authentication for your website:
+   - In the Discord Developer Portal, go to the "OAuth2" tab
+   - Add your website's redirect URI (e.g., https://your-website.com/auth/discord/callback)
+   - Note down the Client ID and Client Secret
+
+5. Implement Discord authentication in your website:
+   - Use a library like "discord.js" for Node.js
+   - Set up routes for authentication (/auth/discord and /auth/discord/callback)
+   - Use the Client ID, Client Secret, and redirect URI in your authentication flow
+
+6. Connect your bot to the website:
+   - Store the bot token securely (use environment variables)
+   - Use the Discord API to fetch server information and interact with your bot
+
+7. Set up API endpoints on your website:
+   - Create endpoints to handle bot commands and data retrieval
+   - Implement security measures to ensure only authorized requests are processed
+
+8. Test the integration:
+   - Ensure the bot can communicate with your website
+   - Verify that Discord authentication works correctly
+   - Test various bot commands and data retrieval functions
+
+[Русский]
+Как подключить бота Discord к сайту через API и настроить аутентификацию Discord:
+
+1. Создайте приложение и бота Discord:
+   - Перейдите на портал разработчиков Discord (https://discord.com/developers/applications)
+   - Нажмите "New Application" и дайте ему имя
+   - Перейдите на вкладку "Bot" и нажмите "Add Bot"
+   - В разделе "Token" нажмите "Copy", чтобы скопировать токен вашего бота
+
+2. Настройте разрешения для вашего бота:
+   - Перейдите на вкладку "OAuth2"
+   - В разделе "Scopes" выберите "bot"
+   - В разделе "Bot Permissions" выберите необходимые разрешения
+
+3. Пригласите бота на свой сервер:
+   - Используйте сгенерированный URL OAuth2 для приглашения бота на ваш сервер
+
+4. Настройте аутентификацию Discord для вашего сайта:
+   - На портале разработчиков Discord перейдите на вкладку "OAuth2"
+   - Добавьте URI перенаправления вашего сайта (например, https://your-website.com/auth/discord/callback)
+   - Запишите Client ID и Client Secret
+
+5. Реализуйте аутентификацию Discord на вашем сайте:
+   - Используйте библиотеку, такую как "discord.js" для Node.js
+   - Настройте маршруты для аутентификации (/auth/discord и /auth/discord/callback)
+   - Используйте Client ID, Client Secret и URI перенаправления в вашем процессе аутентификации
+
+6. Подключите вашего бота к сайту:
+   - Храните токен бота безопасно (используйте переменные окружения)
+   - Используйте API Discord для получения информации о сервере и взаимодействия с вашим ботом
+
+7. Настройте конечные точки API на вашем сайте:
+   - Создайте конечные точки для обработки команд бота и получения данных
+   - Реализуйте меры безопасности, чтобы обрабатывались только авторизованные запросы
+
+8. Протестируйте интеграцию:
+   - Убедитесь, что бот может общаться с вашим сайтом
+   - Проверьте, что аутентификация Discord работает корректно
+   - Протестируйте различные команды бота и функции получения данных
+
+[Deutsch]
+So verbinden Sie einen Discord-Bot mit der Website über API und richten die Discord-Authentifizierung ein:
+
+1. Erstellen Sie eine Discord-Anwendung und einen Bot:
+   - Gehen Sie zum Discord Developer Portal (https://discord.com/developers/applications)
+   - Klicken Sie auf "New Application" und geben Sie ihm einen Namen
+   - Gehen Sie zum "Bot"-Tab und klicken Sie auf "Add Bot"
+   - Klicken Sie im Abschnitt "Token" auf "Copy", um Ihren Bot-Token zu kopieren
+
+2. Richten Sie die Berechtigungen Ihres Bots ein:
+   - Gehen Sie zum "OAuth2"-Tab
+   - Wählen Sie im Abschnitt "Scopes" "bot" aus
+   - Wählen Sie im Abschnitt "Bot Permissions" die erforderlichen Berechtigungen aus
+
+3. Laden Sie den Bot auf Ihren Server ein:
+   - Verwenden Sie die generierte OAuth2-URL, um den Bot auf Ihren Server einzuladen
+
+4. Richten Sie die Discord-Authentifizierung für Ihre Website ein:
+   - Gehen Sie im Discord Developer Portal zum "OAuth2"-Tab
+   - Fügen Sie die Redirect-URI Ihrer Website hinzu (z.B. https://your-website.com/auth/discord/callback)
+   - Notieren Sie sich die Client ID und das Client Secret
+
+5. Implementieren Sie die Discord-Authentifizierung auf Ihrer Website:
+   - Verwenden Sie eine Bibliothek wie "discord.js" für Node.js
+   - Richten Sie Routen für die Authentifizierung ein (/auth/discord und /auth/discord/callback)
+   - Verwenden Sie die Client ID, das Client Secret und die Redirect-URI in Ihrem Authentifizierungsablauf
+
+6. Verbinden Sie Ihren Bot mit der Website:
+   - Speichern Sie den Bot-Token sicher (verwenden Sie Umgebungsvariablen)
+   - Verwenden Sie die Discord-API, um Serverinformationen abzurufen und mit Ihrem Bot zu interagieren
+
+7. Richten Sie API-Endpunkte auf Ihrer Website ein:
+   - Erstellen Sie Endpunkte zur Verarbeitung von Bot-Befehlen und Datenabruf
+   - Implementieren Sie Sicherheitsmaßnahmen, um sicherzustellen, dass nur autorisierte Anfragen verarbeitet werden
+
+8. Testen Sie die Integration:
+   - Stellen Sie sicher, dass der Bot mit Ihrer Website kommunizieren kann
+   - Überprüfen Sie, ob die Discord-Authentifizierung korrekt funktioniert
+   - Testen Sie verschiedene Bot-Befehle und Datenabruffunktionen
+
